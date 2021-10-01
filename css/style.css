@@ -38,3 +38,19 @@ ul li a:hover{
   color: #999;
   text-decoration: underline;
 }
+
+#destaque figure {
+  margin: 0;
+}
+
+#produtosList{
+  display:grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#produtosList .cardProdutos {
+  border: 1px solid #ddd;
+}
